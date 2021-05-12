@@ -1,0 +1,117 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  width: 100%;
+  height: 100vh;
+  background-color: #FFA500; 
+}
+
+.page-logo {
+  height: 120px;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+button {
+    padding: .8rem 1.5rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+h2 {
+    color: white;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 160px;
+    margin: 1.5rem;
+}
+
+.carta-status input {
+    margin: 20px 10px;
+}
+
+.opcoes {
+    color: white;
+}
+
+img#cartasEscolhidas {
+  height: 400px;
+  width: 400px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  color: white;
+  font-family: 'Roboto Mono', monospace
+}
+
+div.blocoCarta {
+  display: inline-block;
+  margin: 10px;
+  border: solid #964B00 3px;
+  border-radius: 7px;
+  background-color: gray;
+}
+
+.blocoCarta h2 {
+  background-color: gray;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.blocoCarta h3 {
+  background-color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.blocoCarta p {
+  background-color: gray;
+  position: left;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.resultado p {
+  box-shadow: 1px 1px 3px black;
+  background-color: gray;
+  color: white;
+  font-size: 25px;
+}
+
+.placar p {
+  box-shadow: 1px 1px 3px black;
+  background-color: gray;
+  color: white;
+  font-size: 25px;  
+}
+
+.quantidade p {
+  box-shadow: 1px 1px 3px black;
+  background-color: gray;
+  color: white;
+  font-size: 25px;
+}
